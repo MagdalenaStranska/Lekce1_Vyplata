@@ -13,9 +13,14 @@ let dan = 0.15
 let prijem = hodiny * hodinovaMzda * pracovniDny
 let vypoctenaDan = (prijem - (prijem * pausal)) * dan
 
-document.body.innerHTML += "<p>" + prijem + "</p>"
+//document.body.innerHTML += "<p>" + prijem + "</p>"
 
-document.body.innerHTML += "<p>" + (Math.floor(vypoctenaDan)) + "</p>"
+document.body.innerHTML += 21 * 7 * 320;
+
+//document.body.innerHTML += "<p>" + (Math.floor(vypoctenaDan)) + "</p>"
+
+document.body.innerHTML += '<br>';
+document.body.innerHTML += Math.floor(21 * 7 * 320 * (1 - 0.6) * 0.15);
 
 
 
